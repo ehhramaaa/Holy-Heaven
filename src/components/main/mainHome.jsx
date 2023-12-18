@@ -116,8 +116,9 @@ const mainHome = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-5 video-area mt-50 mt-lg-0"> <img src="/img/section-bg/about-feature.png" data-rjs={2} alt="" /> <a href="https://www.youtube.com/watch?v=ctvlUvN6wSE" className="vdo-btn popup-video"><img src="/img/icons/play.svg" className="svg" alt="" /> Watch
-                            Video</a> </div>
+                        <div className="col-lg-5 video-area mt-50 mt-lg-0">
+                            <img src="/img/section-bg/about-feature.png" data-rjs={2} alt="" />
+                        </div>
                     </div>
                 </div>
             </section>
@@ -229,7 +230,7 @@ const mainHome = () => {
                                     <h3><a href="#">Portofolio Website</a></h3>
                                     <p className="project-meta">Client:<span>Chellsy Wilian J.</span></p>
                                     <p> Website for Assiggment University.</p><a href="#" className="btn-inline">Read
-                                            More</a>
+                                        More</a>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +241,7 @@ const mainHome = () => {
                                     <h3><a href="#">Portofolio Website</a></h3>
                                     <p className="project-meta">Client:<span>Nasya Anggriani</span></p>
                                     <p> Website for Portofolio Client</p><a href="#" className="btn-inline">Read
-                                            More</a>
+                                        More</a>
                                 </div>
                             </div>
                         </div>
@@ -251,7 +252,7 @@ const mainHome = () => {
                                     <h3><a href="#">Design UI/UX for fashion App</a></h3>
                                     <p className="project-meta">Client:<span>Chellsy Wilian J.</span></p>
                                     <p>Website for Assiggment University</p><a href="#" className="btn-inline">Read
-                                            More</a>
+                                        More</a>
                                 </div>
                             </div>
                         </div>
@@ -262,7 +263,7 @@ const mainHome = () => {
                                     <h3><a href="#">3D Art Animation</a></h3>
                                     <p className="project-meta">Client:<span>Nasya Anggriani</span></p>
                                     <p>Website for Portofolio Client</p><a href="#" className="btn-inline">Read
-                                            More</a>
+                                        More</a>
                                 </div>
                             </div>
                         </div>

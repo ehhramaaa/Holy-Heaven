@@ -1,4 +1,47 @@
-const navbar = () => {
+import { useState } from 'react';
+import { Link } from "react-router-dom"
+import 'react-responsive-modal/styles.css'
+import 'swiper/swiper-bundle.css';
+import { Modal } from 'react-responsive-modal';
+import Swiper from 'swiper';
+import Auth from './Auth';
+
+
+const Navbar = () => {
+    const [isHovered, setIsHovered] = useState(false);
+    const [isHoveredLogin, setIsHoveredLogin] = useState(false);
+    const [modalLogin, setLoginModal] = useState(false);
+    const [inputValue, setInputValue] = useState('');
+    const [inputUsername, setInputUsername] = useState('');
+    const [inputPassword, setInputPassword] = useState('');
+
+    const swiper = new Swiper(".swiper", {
+        speed: 500,
+        allowTouchMove: false,
+    });
+
+    const usernames = ["rama", "viona", "zaenal", "arya"];
+    const passwords = ["rama1", "viona1", "zaenal1", "arya1"];
+
+    const credentials = usernames.map((username, index) => ({
+        username: username,
+        password: passwords[index]
+    }));
+
+    const loginStyle = {
+        borderRadius:'5px',
+        padding: '9px 25px',
+        backgroundColor: isHoveredLogin ? '#31B4FE' : '#103178',
+        color: isHovered ? '#ffffff' : '#ffffff',
+        margin: '2rem'
+    };
+    const regisStyle = {
+        borderRadius:'5px',
+        padding: '9px 25px',
+        backgroundColor: isHovered ? '#31B4FE' : '#ffffff',
+        color: isHovered ? '#ffffff' : '#103178',
+        transition: 'background-color 0.3s, color 0.3s'
+    };
     return (
         <>
             <header className="header fixed-top">
@@ -11,56 +54,35 @@ const navbar = () => {
                             <div className="col-lg-9 col-sm-8 col-4">
                                 <div className="main-menu d-flex align-items-center justify-content-end">
                                     <ul className="nav align-items-center">
-                                        {/* <li className="menu-item-has-children"> <a href="#">Home</a>
-                                        <ul className="sub-menu">
-                                            <li><a href="index-2.html">Landing Page</a></li>
-                                            <li><a href="home-1.html">home v1</a></li>
-                                            <li><a href="home-2.html">home v2</a></li>
-                                        </ul>
-                                    </li> */}
-                                        {/* <li className="menu-item-has-children"> <a href="#">Services</a>
-                                        <ul className="sub-menu">
-                                            <li><a href="service.html">service v1</a></li>
-                                            <li><a href="service-two.html">service v2</a></li>
-                                            <li><a href="service-details.html">service details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="menu-item-has-children"> <a href="#">Project</a>
-                                        <ul className="sub-menu">
-                                            <li><a href="projects.html">Projects</a></li>
-                                            <li><a href="project-details.html">project details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="menu-item-has-children"> <a href="#">Pages</a>
-                                        <ul className="sub-menu">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="current-menu-parent menu-item-has-children"> <a href="#">Blog</a>
-                                        <ul className="sub-menu">
-                                            <li className="current-menu-item"><a href="blog.html">Blog Default</a></li>
-                                            <li><a href="blog-single-column.html">Blog Single Colunm</a></li>
-                                            <li><a href="blog-two-column.html">Blog two Colunm</a></li>
-                                            <li><a href="blog-with-sidebar.html">Blog with Sidebar</a></li>
-                                            <li><a href="blog-details.html">blog details</a></li>
-                                        </ul>
-                                    </li> */}
-                                        <li><a href="">Home</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li>
+                                            <Link to="/">Home</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/about">About</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/service">Service</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/portfolio">Portfolio</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/contact">Contact</Link>
+                                        </li>
                                     </ul>
-                                    <span className="offcanvas-trigger text-right d-none d-lg-block">
-                                        <span /> <span />
-                                        <span /> </span>
+                                    <div className="sign">
+                                        <button href="#product-area" className="bttn-4" style={loginStyle} onMouseEnter={() => setIsHoveredLogin(true)} onMouseLeave={() => setIsHoveredLogin(false)} onClick={() => setLoginModal(true)}>Sign In</button>
+                                        <button href="#product-area" className="bttn-4" style={regisStyle} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} >Sign Up</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
+            < Auth Modal={Modal} modalLogin={modalLogin} setInputValue={setInputValue} inputValue={inputValue} swiper={swiper} usernames={usernames} setLoginModal={setLoginModal} credentials={credentials} inputUsername={inputUsername}  setInputUsername={setInputUsername} inputPassword={inputPassword} setInputPassword={setInputPassword} />
         </>
     )
 }
 
-export default navbar
+export default Navbar
