@@ -1,0 +1,131 @@
+.productShape1inner {
+    height: 200px;
+    position: relative;
+    z-index: -1;
+}
+
+.productShape1inner:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to left bottom, #ffffff 50%, transparent 50%) repeat scroll 0 0;
+}
+
+.footer-area.v2,
+.price-area.v2,
+.product-area.v2,
+.header-area.v2 {
+    background-image: -webkit-gradient(linear, left top, right top, from(#5040F4), to(#31B4FE));
+    background-image: linear-gradient(to right, #5040F4 0%, #31B4FE 100%);
+}
+
+.footer-area.v2 {
+    margin-top: 200px;
+}
+
+.angle-3,
+.angle-2,
+.angle-1 {
+    position: relative;
+    z-index: 1
+}
+
+/*--------------------
+8. Subscribe-Form
+---------------------*/
+
+.subscribe-area {
+    padding: 100px 100px;
+    -webkit-box-shadow: 0 0 50px 0 rgba(80, 107, 135, 0.34);
+    box-shadow: 0 0 50px 0 rgba(80, 107, 135, 0.34);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.subscribe-area.v2 {
+    margin-top: -200px;
+}
+
+.product-single-slider .item {
+    text-align: center;
+    display: inline-block;
+}
+
+.over-hidden {
+    overflow: hidden;
+}
+
+/*--------------------
+13. Subscribe-Form
+---------------------*/
+
+#mc-form {
+    position: relative;
+}
+
+#mc-form .mt10 {
+    position: absolute;
+    top: 105%;
+}
+
+.subscribe-area .form-input {
+    padding: 17px 20px;
+    border: 2px solid #EBEBEB;
+    color: #0F1D46;
+    margin-right: 15px;
+    width: calc(100% - 280px);
+    border-radius: 5px;
+    outline: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.subscribe-area .form-input:focus {
+    border: 2px solid #acacac;
+}
+
+.subscribe-area .submit {
+    width: 250px;
+    text-align: center;
+    -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    display: inline-block;
+}
+
+.subscribe-area .submit:after {
+    opacity: 0;
+}
+
+.subscribe-area.v2 .submit:after {
+    background: #1980FA;
+}
+
+.subscribe-area.v3 .submit:after {
+    background: #A930E4;
+}
+
+.subscribe-area .info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text-box.camera-title h3.title {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.camera-title{
+    font-size: 18px;
+    line-height: 34px;
+}
+.pre-btn.bttn-3:after {
+    background: -webkit-gradient(linear, right top, left top, from(#5B69FF), to(#674DD6));
+    opacity: 1;
+}
+
+
+.subscribe-area h1.title{
+    font-size: 60px;
+    line-height: 65px;
+}
