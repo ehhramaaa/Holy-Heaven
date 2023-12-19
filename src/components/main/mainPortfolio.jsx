@@ -10,7 +10,7 @@ const mainPortfolio = () => {
               <div className="page-title text-center">
                 <h2>Projects</h2>
                 <ul className="list-inline">
-                  <li><a href="index-2.html">Home</a></li>
+                  <li><Link to="/">Home</Link></li>
                   <li>Projects</li>
                 </ul>
               </div>
@@ -20,30 +20,12 @@ const mainPortfolio = () => {
       </section>
       <section className="pt-120 pb-120">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="section-title mb-50 mb-lg-0">
-                <h3>What We’ve Done</h3>
-                <h2>We Work All Over The <br />World With Company</h2>
-                <p>Enjoyed minutes related on fanny dried as often me. Goodness as reserved raptures to mistaken
-                  steepest oh he. Gravity he mr sixteen esteems. Mile home new way with high said. Finished
-                  horrible blessing landlord dwelling dissuade if. Rent fond am he in on read. Anxious cordial
-                  demands settled entered in do to colonel landlord dwelling dissuade.</p>
-              </div>
-            </div>
-            <div className="col-lg-6"> <img src="/img/case-study-about.jpg" data-rjs={2} alt="" /> </div>
-          </div>
-        </div>
-      </section>
-      <section className="pt-120 pb-120">
-        <div className="container">
           <div className="row">
             <div className="col-12">
               <div className="section-title text-center">
-                <h3>Case Studies</h3>
-                <h2>Our Recent Project</h2>
-                <p>Mutual has cannot beauty indeed now sussex merely you. It possible no husbands jennings ye
-                  offended packages pleasant he. Remainder recommend who applauded departure joy.</p>
+                <h3>Portofolio</h3>
+                <h2>Our Portofolio</h2>
+                <p>Increase your trust in us through our diverse portfolio and achievements in various technology projects, Our Quality Proven in Every Project We Handle</p>
               </div>
             </div>
           </div>
@@ -53,16 +35,16 @@ const mainPortfolio = () => {
                 <div className="nav justify-content-center align-items-center">
                   <ul className="project_filter list-inline">
                     <li className="active" data-filter="*"> <span className="filter-btn">All</span> </li>
-                    <li className data-filter=".financial"> <span className="filter-btn">Financial</span> </li>
-                    <li className data-filter=".business"> <span className="filter-btn">Business</span> </li>
-                    <li className data-filter=".funds"> <span className="filter-btn">Funds</span> </li>
-                    <li className data-filter=".investment"> <span className="filter-btn">Investment</span> </li>
-                    <li className data-filter=".sales"> <span className="filter-btn">Sales</span> </li>
+                    <li className data-filter=".financial"> <span className="filter-btn">Website</span> </li>
+                    <li className data-filter=".business"> <span className="filter-btn">UI/UX</span> </li>
+                    <li className data-filter=".funds"> <span className="filter-btn">3D Art</span> </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
+
+          {/* TODO Pake Looping */}
           <div className="row project-items grid">
             <div className="col-lg-6 grid-item sales business">
               <div className="single-project-item">

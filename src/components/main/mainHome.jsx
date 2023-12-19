@@ -82,10 +82,9 @@ const mainHome = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-7">
                             <div className="section-title">
-                                <h3>About Agency</h3>
+                                <h3><strong>About Agency</strong></h3>
                                 <h2>Empowering &amp; Driving<br />Success in the Digital <br />Landscape</h2>
-                                <p>Met defective are allowance two perceived listening consulted contained. It chicken oh
-                                    colonel pressed excited suppose to shortly.</p>
+                                <p>Join us on this journey of technological empowerment, where every solution is crafted with your success in mind. Your digital transformation starts here, with Holy Heaven IT Corp.</p>
                             </div>
                             <div className="about-nav-tab">
                                 <ul className="nav nav-tabs" role="tablist">
@@ -94,9 +93,7 @@ const mainHome = () => {
                                 </ul>
                                 <div className="tab-content">
                                     <div className="tab-pane fade show active" id="mission" role="tabpanel">
-                                        <p>Surprise not wandered speedily husbands although yet end. Are court tiled cease young
-                                            built fat one man taken. We highest ye friends is exposed equally in. Ignorant had
-                                            too strictly followed.</p>
+                                        <p>“To be a leading partner in helping clients realize their online vision through innovative website development, stunning 3D art, intuitive UI/UX design, and effective website refreshes.”</p>
                                         <ul className="list-unstyled list-check">
                                             <li><i className="fa fa-check" aria-hidden="true" /> Become successful &amp; superior</li>
                                             <li><i className="fa fa-check" aria-hidden="true" /> Provide quick &amp; good solution for
@@ -104,9 +101,7 @@ const mainHome = () => {
                                         </ul> <a href="#" className="btn"><span>SEE MORE</span></a>
                                     </div>
                                     <div className="tab-pane fade" id="vission" role="tabpanel">
-                                        <p>It is a long established fact that a reader will be distracted by the readable
-                                            content of a page when looking at its layout. The point of using Lorem Ipsum is that
-                                            it has a more-or-less normal distribution of letters.</p>
+                                        <p>“To provide high-quality services that not only meet, but also exceed client expectations.”</p>
                                         <ul className="list-unstyled list-check">
                                             <li><i className="fa fa-check" aria-hidden="true" /> Become successful &amp; superior</li>
                                             <li><i className="fa fa-check" aria-hidden="true" /> Provide quick &amp; good solution for
@@ -127,7 +122,7 @@ const mainHome = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-title text-center">
-                                <h3>Steps</h3>
+                                <h3><strong>Steps</strong></h3>
                                 <h2>Work Process Our Experts Do</h2>
                                 <p>After discussing with our professional team, we will send an offer letter, if the price is appropriate we can send an invoice / payment bill, then we can also make a contract agreement document if needed. After the contract is signed and the bill has been paid, we will start working according to the contract.</p>
                             </div>
@@ -145,7 +140,7 @@ const mainHome = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="section-title">
-                                <h3>Service</h3>
+                                <h3><strong>Service</strong></h3>
                                 <h2>We’re Providing <br />Best Solutions <br />For Your Business</h2>
                                 <p>We offer website development, 3d art, ui/ux design, website redesign, website portfolio. The design can be according to the client wishes or use a template, we will follow what the client wants.</p>
                             </div><a href="#" className="btn"><span>view All</span></a>
@@ -154,10 +149,18 @@ const mainHome = () => {
                             <div className="row mt-40 mt-lg-0">
                                 <div className="col-sm-12 single-service-wrapper">
                                     <div className="single-service text-center">
-                                        <div className="icon"> <img src="/img/icons/service-1.png" data-rjs={2} alt="" /> </div>
-                                        <div className="content">
-                                            <h4>Financial Planning</h4>
-                                            <p>Saved he do fruit woody of to. Met defective are allowance two.</p><a href="#" className="btn-inline">Read More</a>
+                                        <div className="row">
+                                            <div className="col">
+                                                <div className="icon">
+                                                    <img src="/icon.png" data-rjs={2} alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="col">
+                                                <div className="content">
+                                                    <h4>Fullstack Web Development</h4>
+                                                    <p> Top quality professional website development services with lower prices and quality results.</p><a href="#" className="btn-inline">Read More</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -206,28 +209,12 @@ const mainHome = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="project-nav text-center mb-30">
-                                <div className="nav justify-content-center align-items-center">
-                                    <ul className="project_filter list-inline">
-                                        <li className="active" data-filter="*"> <span className="filter-btn">All</span> </li>
-                                        <li className data-filter=".financial"> <span className="filter-btn">Financial</span> </li>
-                                        <li className data-filter=".business"> <span className="filter-btn">Business</span> </li>
-                                        <li className data-filter=".funds"> <span className="filter-btn">Funds</span> </li>
-                                        <li className data-filter=".investment"> <span className="filter-btn">Investment</span> </li>
-                                        <li className data-filter=".sales"> <span className="filter-btn">Sales</span> </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div className="row project-items grid">
                         <div className="col-lg-6 grid-item sales business">
                             <div className="single-project-item">
-                                <div className="image"> <img src="/img/project/project-1.png" data-rjs={2} alt="" /> </div>
+                                <div className="image"> <img src="/img/portfolio/portfolio-cecel.png" data-rjs={2} alt="" /> </div>
                                 <div className="project-body">
-                                    <h3><a href="#">Portofolio Website</a></h3>
+                                    <h3><a href="https://cecelajahh.com/" target="blank">Portofolio Website</a></h3>
                                     <p className="project-meta">Client:<span>Chellsy Wilian J.</span></p>
                                     <p> Website for Assiggment University.</p><a href="#" className="btn-inline">Read
                                         More</a>
@@ -236,9 +223,9 @@ const mainHome = () => {
                         </div>
                         <div className="col-lg-6 grid-item sales financial">
                             <div className="single-project-item">
-                                <div className="image"> <img src="/img/project/project-2.png" data-rjs={2} alt="" /> </div>
+                                <div className="image"> <img src="/img/portfolio/portfolio-nasya.png" data-rjs={2} alt="" /> </div>
                                 <div className="project-body">
-                                    <h3><a href="#">Portofolio Website</a></h3>
+                                    <h3><a href="https://nasyaanggriani.com/" target="blank">Portofolio Website</a></h3>
                                     <p className="project-meta">Client:<span>Nasya Anggriani</span></p>
                                     <p> Website for Portofolio Client</p><a href="#" className="btn-inline">Read
                                         More</a>
@@ -247,22 +234,22 @@ const mainHome = () => {
                         </div>
                         <div className="col-lg-6 grid-item investment business">
                             <div className="single-project-item">
-                                <div className="image"> <img src="/img/project/project-3.png" data-rjs={2} alt="" /> </div>
+                                <div className="image"> <img src="/img/portfolio/portfolio-ui.png" data-rjs={2} alt="" /> </div>
                                 <div className="project-body">
                                     <h3><a href="#">Design UI/UX for fashion App</a></h3>
-                                    <p className="project-meta">Client:<span>Chellsy Wilian J.</span></p>
-                                    <p>Website for Assiggment University</p><a href="#" className="btn-inline">Read
+                                    <p className="project-meta">Client:<span></span></p>
+                                    <p>Apple Watch Product Design</p><a href="#" className="btn-inline">Read
                                         More</a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6 grid-item financial funds">
                             <div className="single-project-item">
-                                <div className="image"> <img src="/img/project/project-4.png" data-rjs={2} alt="" /> </div>
+                                <div className="image"> <img src="/img/portfolio/portfolio-3d.png" data-rjs={2} alt="" /> </div>
                                 <div className="project-body">
-                                    <h3><a href="#">3D Art Animation</a></h3>
-                                    <p className="project-meta">Client:<span>Nasya Anggriani</span></p>
-                                    <p>Website for Portofolio Client</p><a href="#" className="btn-inline">Read
+                                    <h3><a href="https://www.artstation.com/artwork/Geq4OQ" target="blank">3D Art Animation</a></h3>
+                                    <p className="project-meta">Client:<span></span></p>
+                                    <p>Minerva Land</p><a href="#" className="btn-inline">Read
                                         More</a>
                                 </div>
                             </div>

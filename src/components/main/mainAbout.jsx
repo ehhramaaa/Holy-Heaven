@@ -25,10 +25,10 @@ const mainAbout = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-title text-center">
-                                <h3>Who We Are</h3>
-                                <h2>We’re Expertise &amp; Strategic Agency <br />To Take Care Of Your Business</h2>
-                                <p>Met defective are allowance two perceived listening consulted contained. It chicken oh
-                                    colonel pressed excited suppose to shortly.</p>
+                                <h3 className="mb-5"><strong>Who We Are</strong></h3>
+                                <h4>Empowering Your Business through Expert IT Guidance
+                                    Unleashing Innovation, Ensuring Security, and Driving Success in the Digital Landscape.
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -38,13 +38,10 @@ const mainAbout = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                             <div className="about-text mt-5">
-                                <p>At as in understood an remarkably solicitude. Mean them very seen she she. Use totally
-                                    written the observe pressed justice. Instantly cordially far intention recommend estimable
-                                    yet her his. Ladies stairs enough esteem add fat all enable. Needed its design number winter
-                                    see. Oh be me sure wise sons no. Piqued ye of am spirit regret. Stimulated discretion
-                                    impossible admiration in particular conviction up. Pasture he invited mr company shyness.
-                                    But when shot real her. Chamber her observe visited removal six sending himself boy. At
-                                    exquisite existence if an oh dependent excellent. Are gay head need down draw.</p>
+                                <p>
+                                    Welcome to Holy Heaven IT Corp, where technology meets strategy to shape the future of your business. As a leading IT consulting partner, we pride ourselves on navigating the complex intersection of business and technology with precision. Our dedicated team of seasoned IT professionals brings a wealth of expertise to the table, offering tailored solutions that propel your organization forward. At Holy Heaven IT Corp, we go beyond conventional consulting — we are your strategic ally in the digital realm. From crafting innovative IT strategies to implementing robust solutions and fortifying cybersecurity measures, we are committed to transforming challenges into opportunities. Join us on this journey of technological empowerment, where every solution is crafted with your success in mind. Your digital transformation starts here, with Holy Heaven IT Corp.
+
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -55,16 +52,9 @@ const mainAbout = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-7">
                             <div className="section-title mb-4">
-                                <h3>Our Mission</h3>
+                                <h3><strong>Our Mission</strong></h3>
                                 <h2>Our Mission Is To Help <br />Clients To Meet Their Goal</h2>
-                                <p>Fat son how smiling mrs natural expense anxious friends. Boy scale enjoy ask abode fanny
-                                    being son. As material in learning subjects so improved feelings. Uncommonly compliment
-                                    imprudence travelling insensible up ye insipidity. To up painted delight winding as brandon.
-                                    Gay regret eat looked warmth easily far should now. Prospect at me wandered on extended
-                                    wondered thoughts appetite to.</p>
-                                <p>She add what own only like. Tolerably we as extremity exquisite do commanded. Doubtful
-                                    offended do entrance of landlord moreover is mistress in. Nay was appear entire ladies.
-                                    Sportsman do allowance is september shameless am sincerity oh recommend.</p>
+                                <p>“To provide high-quality services that not only meet, but also exceed client expectations. We want to be responsible for helping clients build their online presence with attractive and functional designs. Through close collaboration with clients, we aim to create a unique and satisfying digital experience for end users”.</p>
                             </div>
                             <ul className="list-unstyled list-check">
                                 <li><i className="fa fa-check" aria-hidden="true" /> Become successful &amp; superior</li>
@@ -73,6 +63,9 @@ const mainAbout = () => {
                                 <li><i className="fa fa-check" aria-hidden="true" /> Use opportunities to boost sales</li>
                                 <li><i className="fa fa-check" aria-hidden="true" /> Planning &amp; executing projects</li>
                             </ul>
+                        </div>
+                        <div className="col-lg-5 video-area mt-50 mt-lg-0">
+                            <img src="/img/section-bg/about-feature.png" data-rjs={2} alt />
                         </div>
                     </div>
                 </div>
@@ -85,9 +78,7 @@ const mainAbout = () => {
                             <div className="section-title mb-4 mt-50 mt-lg-0">
                                 <h3>Our Vision</h3>
                                 <h2>Our Vision Is To Provide <br />Best Solution For Client</h2>
-                                <p>Cordially convinced did incommode existence put out suffering certainly. Besides another and
-                                    saw ferrars limited ten say unknown. On at tolerably depending do perceived. Luckily eat joy
-                                    see own shyness minuter.</p>
+                                <p>“To be a leading partner in helping clients realize their online vision through innovative website development, stunning 3D art, intuitive UI/UX design, and effective website refreshes. We are committed to delivering customized design solutions, whether it's following client-specific instructions or using pre-made templates”.</p>
                             </div>
                             <ul className="list-unstyled list-check">
                                 <li><i className="fa fa-check" aria-hidden="true" /> Become successful &amp; superior</li>
