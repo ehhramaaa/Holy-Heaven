@@ -4,13 +4,15 @@ import 'react-responsive-modal/styles.css'
 import 'swiper/swiper-bundle.css';
 import { Modal } from 'react-responsive-modal';
 import Swiper from 'swiper';
-import Auth from './Auth';
+import Login from './auth/Login';
+import Register from './auth/Register';
 
 
 const Navbar = () => {
     const [isHovered, setIsHovered] = useState(false);
     const [isHoveredLogin, setIsHoveredLogin] = useState(false);
     const [modalLogin, setLoginModal] = useState(false);
+    const [modalRegis, setRegisModal] = useState(false);
     const [inputValue, setInputValue] = useState('');
     const [inputUsername, setInputUsername] = useState('');
     const [inputPassword, setInputPassword] = useState('');
@@ -19,14 +21,6 @@ const Navbar = () => {
         speed: 500,
         allowTouchMove: false,
     });
-
-    const usernames = ["rama", "viona", "zaenal", "arya"];
-    const passwords = ["rama1", "viona1", "zaenal1", "arya1"];
-
-    const credentials = usernames.map((username, index) => ({
-        username: username,
-        password: passwords[index]
-    }));
 
     const loginStyle = {
         borderRadius:'5px',
@@ -72,7 +66,7 @@ const Navbar = () => {
                                     </ul>
                                     <div className="sign">
                                         <button href="#product-area" className="bttn-4" style={loginStyle} onMouseEnter={() => setIsHoveredLogin(true)} onMouseLeave={() => setIsHoveredLogin(false)} onClick={() => setLoginModal(true)}>Sign In</button>
-                                        <button href="#product-area" className="bttn-4" style={regisStyle} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} >Sign Up</button>
+                                        <button href="#product-area" className="bttn-4" style={regisStyle} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} onClick={() => setRegisModal(true)}>Sign Up</button>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +74,9 @@ const Navbar = () => {
                     </div>
                 </div>
             </header>
-            < Auth Modal={Modal} modalLogin={modalLogin} setInputValue={setInputValue} inputValue={inputValue} swiper={swiper} usernames={usernames} setLoginModal={setLoginModal} credentials={credentials} inputUsername={inputUsername}  setInputUsername={setInputUsername} inputPassword={inputPassword} setInputPassword={setInputPassword} />
+            < Register Modal={Modal} modalRegis={modalRegis} swiper={swiper} setRegisModal={setRegisModal}/>
+            < Login modalLogin={modalLogin} setLoginModal={setLoginModal} />
+            {/* < Register modalRegis={modalRegis} setLoginModal={setLoginModal} /> */}
         </>
     )
 }

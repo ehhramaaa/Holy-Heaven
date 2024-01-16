@@ -3,7 +3,7 @@
 // import { Alert, AlertTitle } from '@mui/material';
 
 const Auth = ({ Modal, modalLogin, setInputValue, inputValue, swiper, usernames, setLoginModal, credentials, inputUsername, setInputUsername, inputPassword, setInputPassword }) => {
-    {/* Todo Autentication */}
+    {/* Todo Autentication */ }
     const authentication = () => {
         const userToFind = inputUsername;
         const passwordToFind = inputPassword;
@@ -204,41 +204,26 @@ const Auth = ({ Modal, modalLogin, setInputValue, inputValue, swiper, usernames,
                 </div> */}
 
                 <div className="authCard">
-                    <div className="swiper">
-                        <div className="swiper-wrapper">
-                            {/* Username */}
-                            <div className="swiper-slide">
-                                <img src="/vite.svg" alt="Slide 1" />
-                                <h2>Welcome</h2>
-                                <h3>Enter your username</h3>
-                                <input spellCheck="false" onInput={checkValid} type="text" placeholder="e.g. johnsmith" className="control" />
-                                <div id="spinner" className="spinner"></div>
-                                <button disabled={handleDisable} type="button" onClick={() => [gotoSlide(1), setInputValue('')]}>Next</button>
-                            </div>
+                    <div className="swiper-slide">
+                        <img src="/favicon.png" alt="Slide 1" />
+                        <h2>Welcome</h2>
+                        <h3>Enter your account</h3>
+                        <input spellCheck="false" onInput={checkValid} type="text" placeholder="e.g. johnsmith" className="control" />
+                        <div id="spinner" className="spinner"></div>
 
-                            {/* Password */}
-                            <div className="swiper-slide">
-                                <div className="image-wrapper">
-                                    <img src="/public/vite.svg" alt="Slide 2" />
-                                </div>
-                                <h2>Security</h2>
-                                <h3>Enter your password</h3>
-                                <input onInput={checkValid} type="password" id="password" placeholder="Your password" />
+                        <input onInput={checkValid} type="password" id="password" placeholder="Your password" />
 
-                                {/* Toggle Show Password */}
-                                {/* <button className="toggle" type="button" onClick={() => togglePassword(this)}></button> */}
-                                {/* End Toggle */}
+                        {/* Toggle Show Password */}
+                        {/* <button className="toggle" type="button" onClick={() => togglePassword(this)}></button> */}
+                        {/* End Toggle */}
 
-                                <button disabled={handleDisable} type="button" onClick={() => authentication()} style={{ marginTop: '2rem' }}>Login</button>
-                            </div>
-
-                        </div>
-                        <div className="swiper-pagination" />
+                        <button disabled={handleDisable} type="button" onClick={() => authentication()} style={{ marginTop: '2rem' }}>Login</button>
                     </div>
                 </div>
-            </Modal>
+                <div className="swiper-pagination" />
+            </Modal >
 
-                
+
             {/* Todo Alert */}
             {/* <Alert severity="error">
                 <AlertTitle>Error</AlertTitle>

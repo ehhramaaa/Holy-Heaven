@@ -95,17 +95,17 @@ const mainService = () => {
               <li className="nav-item col-lg-3 col-sm-6"> <a href="#personal" className="nav-link text-center active" data-toggle="tab" role="tab">
                 <h4 className="m-0 p-0"><strong>Web Developer</strong></h4>
                 <p className="mt-0"><strong>Start From</strong></p>
-                <h2>$250</h2>
+                <h2>$50</h2>
               </a> </li>
               <li className="nav-item col-lg-3 col-sm-6"> <a href="#startup" className="nav-link text-center" data-toggle="tab" role="tab">
                 <h4 className="m-0 p-0"><strong>UI/UX</strong></h4>
                 <p className="mt-0"><strong>Start From</strong></p>
-                <h2>$500</h2>
+                <h2>$30</h2>
               </a> </li>
               <li className="nav-item col-lg-3 col-sm-6"> <a href="#business" className="nav-link text-center" data-toggle="tab" role="tab">
                 <h4 className="m-0 p-0"><strong>3D Art</strong> </h4>
                 <p className="mt-0"><strong>Start From</strong></p>
-                <h2>$1050</h2>
+                <h2>$50</h2>
               </a> </li>
             </ul>
             <div className="tab-content">
@@ -141,32 +141,20 @@ const mainService = () => {
                     <div className="tab-pane-text">
                       <h3>What’s included in this package</h3>
                       <ul className="list-unstyled list-check">
-                        <li><i className="fa fa-check" aria-hidden="true" /> Market sizing and share
-                          analysis </li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Product value proposition
-                          analysis</li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Identify strategic
-                          partnership </li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Implementation milestone
-                          review </li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Innovation opportunities</li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Distribution channel
-                          opportunities</li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> User-Centric Interface Design </li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> Wireframing and Prototyping</li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> Responsive Design </li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> User Persona Development </li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> Usability Testing</li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> Visual Design and Branding</li>
                       </ul>
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="tab-pane-text mt-50 mt-lg-0">
-                      <h3>Business approach -</h3>
                       <p>Our experts follow the business strategy to grow up your business and engage more
                         customers to your door. </p>
-                      <ul className="list-unstyled list-check">
-                        <li><i className="fa fa-check" aria-hidden="true" /> Getting to know your business
-                          vision and the key strategic drivers.</li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Detailed research of the
-                          business environment, target market, and marketing as well as growth
-                          opportunities.</li>
-                      </ul> <a href="#" className="btn"><span>purchase</span></a>
+                      <a href="#" className="btn"><span>purchase</span></a>
                     </div>
                   </div>
                 </div>
@@ -177,17 +165,12 @@ const mainService = () => {
                     <div className="tab-pane-text">
                       <h3>What’s included in this package</h3>
                       <ul className="list-unstyled list-check">
-                        <li><i className="fa fa-check" aria-hidden="true" /> Market sizing and share
-                          analysis </li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Product value proposition
-                          analysis</li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Identify strategic
-                          partnership </li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Implementation milestone
-                          review </li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Innovation opportunities</li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Distribution channel
-                          opportunities</li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> Custom 3D Modeling </li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> Texturing and Shading</li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> High-Quality Rendering </li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> Animation Services </li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> Rigging and Character Design</li>
+                        <li><i className="fa fa-check" aria-hidden="true" /> 3D Visualization Consultation</li>
                       </ul>
                     </div>
                   </div>
@@ -196,13 +179,7 @@ const mainService = () => {
                       <h3>Business approach -</h3>
                       <p>Our experts follow the business strategy to grow up your business and engage more
                         customers to your door. </p>
-                      <ul className="list-unstyled list-check">
-                        <li><i className="fa fa-check" aria-hidden="true" /> Getting to know your business
-                          vision and the key strategic drivers.</li>
-                        <li><i className="fa fa-check" aria-hidden="true" /> Detailed research of the
-                          business environment, target market, and marketing as well as growth
-                          opportunities.</li>
-                      </ul> <a href="#" className="btn"><span>purchase</span></a>
+                      <a href="#" className="btn"><span>purchase</span></a>
                     </div>
                   </div>
                 </div>

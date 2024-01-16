@@ -216,8 +216,7 @@ const mainHome = () => {
                                 <div className="project-body">
                                     <h3><a href="https://cecelajahh.com/" target="blank">Portofolio Website</a></h3>
                                     <p className="project-meta">Client:<span>Chellsy Wilian J.</span></p>
-                                    <p> Website for Assiggment University.</p><a href="#" className="btn-inline">Read
-                                        More</a>
+                                    <p> Website for Assiggment University.</p>
                                 </div>
                             </div>
                         </div>
@@ -227,8 +226,7 @@ const mainHome = () => {
                                 <div className="project-body">
                                     <h3><a href="https://nasyaanggriani.com/" target="blank">Portofolio Website</a></h3>
                                     <p className="project-meta">Client:<span>Nasya Anggriani</span></p>
-                                    <p> Website for Portofolio Client</p><a href="#" className="btn-inline">Read
-                                        More</a>
+                                    <p> Website for Portofolio Client</p>
                                 </div>
                             </div>
                         </div>
@@ -238,8 +236,7 @@ const mainHome = () => {
                                 <div className="project-body">
                                     <h3><a href="#">Design UI/UX for fashion App</a></h3>
                                     <p className="project-meta">Client:<span></span></p>
-                                    <p>Apple Watch Product Design</p><a href="#" className="btn-inline">Read
-                                        More</a>
+                                    <p>Apple Watch Product Design</p>
                                 </div>
                             </div>
                         </div>
@@ -249,8 +246,7 @@ const mainHome = () => {
                                 <div className="project-body">
                                     <h3><a href="https://www.artstation.com/artwork/Geq4OQ" target="blank">3D Art Animation</a></h3>
                                     <p className="project-meta">Client:<span></span></p>
-                                    <p>Minerva Land</p><a href="#" className="btn-inline">Read
-                                        More</a>
+                                    <p>Minerva Land</p>
                                 </div>
                             </div>
                         </div>
